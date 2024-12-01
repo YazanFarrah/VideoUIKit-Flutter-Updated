@@ -10,16 +10,9 @@ environment:
   flutter: ">=2.2.0"
 
 dependencies:
-  # agora_rtc_engine: ^6.3.2
-  # agora_rtm: ^2.2.2
-
-  agora_rtc_engine:
-    git:
-      url: https://github.com/Samir-Sattarov/agora_flutter_sdk.git
-  agora_rtm:
-    git:
-      url: https://github.com/Samir-Sattarov/agora_rtm.git
-      
+  agora_rtc_engine: ^6.1.0
+  agora_rtm: ^2.2.2
+  iris_method_channel: ^2.2.2 
   flutter:
     sdk: flutter
   http: ">=0.13.1 <2.0.0"
